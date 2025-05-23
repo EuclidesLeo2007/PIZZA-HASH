@@ -305,5 +305,8 @@ section {
 
 .container .box:hover {
     background: #fff;
-    color: black;
+}
+
+.container .box:hover>*{
+color: black;
 }
