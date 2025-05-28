@@ -316,7 +316,7 @@ color: black;
 /* estilizando a DIV pai */
 .products .box-container {
     display: grid; /*organiza os elementos em uma grade*/
-    grid-template-columns: repeat(auto-fit, minmax (30rem, 1fr)); /*cria cokunas flexiveis com largura minima de 30rem e maxima proporcional*/
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /*cria colunas flexiveis com largura minima de 30rem e maxima proporcional*/
     gap: 1.5rem; /*define o espçamento entre os itens da grade*/
 }
 
