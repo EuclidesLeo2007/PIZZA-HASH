@@ -559,3 +559,34 @@ transition: 0.8s;
     color: var(--main-color);
     transition: 0.8s;
 }
+
+.footer-bottom {
+    text-align: center; /*centraliza o texto*/
+    padding: 1rem 0; /*adiciona espaçamento interno vertical*/
+    font-size: 1.6rem; /*Define o tamanho da fonte*/
+    border-top: var(--border); /*Adiciona uma borda superior*/
+    margin-top: 2rem;/*adiciona espaço acima do rodapé inferior*/
+    color: #ccc; /*Define a cor do texto como cinza claro*/
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+
+section {
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    /*colocar código para esconder o menu*/
+    .ul-header {
+        display: none;
+    }
+    
+}
